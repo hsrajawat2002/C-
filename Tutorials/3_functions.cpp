@@ -21,4 +21,4 @@ int main(){
 }
 void pr(){                                        //we use void that means we don't have to return any particular value.
     cout<<"Hello guys"<<endl;
-}//
+}//                                   --->>>>> default parameters in function should always at the right.

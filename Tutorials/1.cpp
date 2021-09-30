@@ -22,7 +22,7 @@ using namespace std;
      cout<<"15% discount"<<endl;
          break;
      
-     default:
+     default:                                  // in case no case matches then we have the default case to act.
          cout<<"No discount"<<endl;
          break;
      }

@@ -12,10 +12,10 @@ class money{
         int sal(int n){
             cout<<"Salary is: "<<n*12<<endl;
         }
-        void pr(){
-            cout<<id<<endl;
-            cout<<name<<endl;
-        }
+        void pr();
+};
+void money ::pr(){                  //---->>> :: this is scope declaration
+    cout<<"id is "<<id<<endl;
 };
 int main(){
     money harsh;
