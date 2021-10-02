@@ -5,6 +5,7 @@ using namespace std;
 class money{
     private:                                      //anything in private is inaccessible even the functions.
         int id=261;
+        static int x;
         string name="Awesome";
         
     public:
@@ -14,6 +15,10 @@ class money{
         }
         void pr();
 };
+
+int money::x;                                          //it must be declared outside     
+
+
 void money ::pr(){                  //---->>> :: this is scope declaration
     cout<<"id is "<<id<<endl;
 };
